@@ -9,3 +9,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: gray;
+}
+#semaforo{
+    justify-self: center;
+}
+
+#root{
+display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+}
+
+.glow{
+    box-shadow: 0 0 10px 10px yellow;
+}
+
+.pointer{
+    cursor: help;
+}
